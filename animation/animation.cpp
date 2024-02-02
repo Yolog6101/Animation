@@ -1025,7 +1025,7 @@ int main(int argc, char* argv[])
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGBA | GLUT_DEPTH | GLUT_DOUBLE);
     glutInitWindowSize(640, 480);
-    glutCreateWindow("最終課題");
+    glutCreateWindow("Animation");
 
     //コールバック関数登録
     glutIdleFunc(idle);
